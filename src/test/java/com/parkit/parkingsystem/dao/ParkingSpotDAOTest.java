@@ -14,7 +14,6 @@ class ParkingSpotDAOTest {
     private static final DataBaseTestConfig dataBaseTestConfig = new DataBaseTestConfig();
     private static final ParkingSpotDAO parkingSpotDAO = new ParkingSpotDAO();
     private static DataBasePrepareService dataBasePrepareService;
-    private static final ParkingSpot parkingSpot = new ParkingSpot(1, ParkingType.CAR, true);
 
 
     @BeforeAll
